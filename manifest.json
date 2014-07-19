@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+
+	"name": "Asdnpadsnpoansdopasdn",
+	"description": "Go on Facebook",
+	"version": "1.0",
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.facebook.com/*"],
+			"js": ["jquery.js", "asdnpadsnpoansdopasdn.js"]
+		}
+	]
+}
