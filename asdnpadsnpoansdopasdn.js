@@ -44,6 +44,7 @@ $(document).ready(function(){
 			if($(this).attr('asdnpadsnpoansdopasdn') !== 'yes'){
 				var anchor = $($(this).find('a')[0]);
 				var nameArray = anchor.text().split(' ');
+				nameArray[1] = nameArray[1] === undefined ? '' : nameArray[1];
 				nameArray[1] = 'Asdnpadsnpoansdopasdn ' + nameArray[1];
 				anchor.text(nameArray.join(' '));
 				$(this).attr('asdnpadsnpoansdopasdn', 'yes');
